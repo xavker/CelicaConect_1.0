@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="costo_a">USD 68,00</string>
+    <string name="costo_b">USD 68,00</string>
+    <string name="costo_c">USD 110,00</string>
+        <string name="texto_tipoa">
+                    <u><b>Descripción:</b></u>
+                    \nSe conceden a usuarios que requieren la licencia por primera vez. (No profesionales - Motocicletas) (Art.127, literal A, numeral 1, del Reglamento a la LOTTTSV).
+
+                    \n\n<u><b>Requisitos:</b></u>
+                    \nCertificado de conductor NO profesional tipo A, emitido por una Escuela de Capacitación para Conductores no profesionales autorizadas por la ANT.
+                    \nOriginal del acta de grado del curso
+                    \nOriginal del permiso de aprendizaje
+                    \nOriginal del resultado del examen psicosensométrico, vigente y aprobado.
+                    \nOriginal de la cédula de identidad y/o ciudadanía.
+                    \nOriginal del certificado o carné de tipo sanguíneo extendido por la Cruz Roja Ecuatoriana.
+                    \nOriginal del comprobante de pago.
+
+                    \n\n<u><b>Procedimiento:</b></u>
+                    \nGenera una orden de pago Aquí.
+                    \nPaga el valor del trámite con la orden de pago (Conoce los Puntos de Pago autorizados).
+                    \nUna vez realizado el pago, obtén un turno para la emisión de licencia (Aquí).
+                    \nAcércate a la agencia que consta en tu turno, 15 minutos antes de la hora asignada.
+                    \nEspera que llamen a tu turno y entrega los documentos que constan en los requisitos, adjuntando el comprobante de pago original.
+                    \nRealiza la evaluación teórica. Puedes revisar el Banco de Preguntas y Simulador de Examen.
+                    \nEspera la entrega de tu licencia.
+
+        </string>
+    <string name="texto_tipob">
+                    <u><b>Descripción:</b></u>
+                    \nSe concede a usuarios que requieren la licencia por primera vez. (Para automóviles y camionetas con acoplados de hasta 1,75 toneladas de carga útil o casas rodantes. Excepcionalmente, los automóviles y camionetas con acoplados de hasta 1.75 toneladas de carga útil de propiedad del Estado, podrán ser conducidos por los funcionarios y servidores públicos que posean licencia tipo B en las circunstancias y cumpliendo con los requisitos determinados en la normativa aplicable expedida por la contraloría General del Estado) .(Art.132, literal A, numeral 2, del Reglamento a la LOTTTSV).
+                    \n\n<u><b>Requisitos:</b></u>
+                    \nCertificado de conductor NO profesional tipo B, emitido por una Escuela de Capacitación para Conductores no profesionales autorizadas por la ANT.
+                        \nOriginal del acta de grado del curso.
+                        \nOriginal del permiso de aprendizaje.
+                        \nOriginal del resultado del examen psicosensométrico, vigente y aprobado.
+                        \nOriginal de la cédula de identidad y/o ciudadanía.
+                        \nOriginal del certificado o carné de tipo sanguíneo extendido por la Cruz Roja Ecuatoriana.
+                        \nOriginal del comprobante de pago.
+
+                    \n\n<u><b>Procedimiento:</b></u>
+                    \nGenera una orden de pago Aquí.
+                        \nPaga el valor del trámite con la orden de pago (Conoce los Puntos de Pago autorizados).
+                        \nUna vez realizado el pago, obtén un turno para la emisión de licencia (Aquí).
+                        \nAcercarse a la Agencia que consta en tu turno, 15 minutos antes de la hora asignada.
+                        \nEspera que llamen a tu turno y entrega los documentos que constan en los requisitos, adjuntando el comprobante de pago original.
+                        \nRealiza la evaluación teórica. Puedes revisar el Banco de Preguntas y Simulador de Examen.
+                        \nRecepción y validación de la documentación y pagos realizados.
+                        \nEspera la entrega de tu licencia.
+
+        </string>
+    <string name="texto_tipog">
+                    <u><b>Descripción:</b></u>
+                    \nLicencia de conducir para maquinaria agrícola, maquinaria pesada, equipos camineros (tractores, moto niveladoras, retroexcavadoras, montacargas, palas mecánicas y otros).
+                    \n\n<u><b>Requisitos:</b></u>
+                    \nCertificado de conductor NO profesional tipo B, emitido por una Escuela de Capacitación para Conductores no profesionales autorizadas por la ANT.
+                        \nOriginal del título y acta de grado de conductor profesional tipo G, otorgados por una escuela de capacitación autorizada por la ANT.
+                        \nOriginal del permiso de aprendizaje tipo G.
+                        \nOriginal del resultado del examen psicosensométrico, vigente y aprobado.
+                        \nOriginal de la cédula de identidad y/o ciudadanía.
+                        \nOriginal del certificado o carné de tipo sanguíneo extendido por la Cruz Roja Ecuatoriana.
+                        \nOriginal del comprobante de pago.
+
+                    \n\n<u><b>Procedimiento:</b></u>
+                    \nGenera una orden de pago Aquí.
+                        \nGenera una orden de pago Aquí
+                        \nPaga el valor del trámite con la orden de pago (Conoce los Puntos de Pago autorizados).
+                        \nUna vez realizado el pago, obtén un turno para la emisión de licencia (Aquí).
+                        \nAcércate a la agencia que consta en tu turno, 15 minutos antes de la hora asignada.
+                        \nEspera que llamen a tu turno y entrega los documentos que constan en los requisitos, adjuntando el comprobante de pago original.
+                        \nRealiza la evaluación teórica. Puedes revisar el Banco de Preguntas y Simulador de Examen.
+                        \nEspera la entrega de tu licencia.
+
+        </string>
+</resources>

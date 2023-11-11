@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Navegador.Menu.Atencion.Atencion">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/big_view"/>
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    android:paddingTop="70dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Elige la persona por la que deseas ser atendida, escoge una fecha y hora, finalmente incluye tus datos personales."
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+
+            <Spinner
+                android:id="@+id/spinner_oficina"
+                android:paddingTop="20dp"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textAlignment="textStart"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_width="match_parent"/>
+
+
+            <EditText
+                android:id="@+id/etPlannedDate"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Ingrese fecha"
+                android:inputType="date"
+                android:maxLines="1"
+                android:onClick="onClick"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/horario"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Selecciona la hora:"
+                    android:textSize="18sp" />
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:columnCount="3"
+                    app:useDefaultMargins="true">
+                    <Button
+                        android:id="@+id/pm200"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="2:00pm" />
+                    <Button
+                        android:id="@+id/pm220"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="2:20pm" />
+                    <Button
+                        android:id="@+id/pm240"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="2:40pm" />
+                    <Button
+                        android:id="@+id/pm300"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="3:00pm" />
+                    <Button
+                        android:id="@+id/pm320"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="3:20pm" />
+                    <Button
+                        android:id="@+id/pm340"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="3:40pm" />                <Button
+                    android:id="@+id/pm400"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:backgroundTint="@color/nodisponible"
+                    android:text="4:00pm" />
+                    <Button
+                        android:id="@+id/pm420"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="4:20pm" />
+                    <Button
+                        android:id="@+id/pm440"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1"
+                        android:backgroundTint="@color/nodisponible"
+                        android:text="4:40pm" />
+                </androidx.gridlayout.widget.GridLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/buscar_horario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buscar disponibilidad" />
+
+
+            <LinearLayout
+                android:id="@+id/h_formulario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/h_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese su nombre"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h_cedula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese su cedula"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h_motivo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese su motivo"
+                    android:inputType="textAutoComplete"
+                    android:maxLines="3"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/h_confirrmar"
+                android:visibility="invisible"
+                android:weightSum="2"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/t_cancelar"
+                    android:layout_margin="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancelar" />
+                <Button
+                    android:layout_margin="2dp"
+                    android:id="@+id/h_aceptar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:text="Confirmar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>

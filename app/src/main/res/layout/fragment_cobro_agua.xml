@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navegador.Menu.ConsultaAgua.CobroAgua">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:id="@+id/primera_parte"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Patalla de cobro de agua"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingTop="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="El valor a pagar es:"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:textColor="@color/colorazul"
+                android:paddingTop="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="$ 20.00"
+                android:id="@+id/valor_cobro"
+                android:textSize="55dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="35dp"
+                android:text="1. Deposite el valor completo o realice una transferencia. \n\n2. Clik en Subir Comprobante, lo direccionará al whatsapp donde debe adjuntar el comprobante. \n\n3.  Listo. "
+                android:textAlignment="textStart"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:paddingTop="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Banco Pichincha"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Nombre: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:id="@+id/pichincha_nombre"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Leonardo Xavier Ramon Poma"
+                        android:textSize="18dp"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:id="@+id/pichincha_copy_nombre"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="12dp"
+                        android:text="copy"/>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Cuenta: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/pichincha_cuenta"
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="5963517000"
+                        android:textSize="18dp"
+                        />
+                    <Button
+                        android:textSize="12dp"
+
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:id="@+id/pichincha_copy_cuenta"
+                        android:text="copy"/>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Tipo: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:id="@+id/pichincha_tipo"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Ahorros"
+                        android:textSize="18dp"
+                        />
+
+                    <Button
+                        android:textSize="12dp"
+
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:id="@+id/pichincha_copy_tipo"
+                        android:text="copy"/>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Cudula: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="1721485173"
+                        android:id="@+id/pichincha_cedula"
+                        android:textSize="18dp"
+                        />
+
+                    <Button
+                        android:textSize="12dp"
+
+                        android:layout_width="0dp"
+                        android:id="@+id/pichincha_copy_cedula"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="copy"/>
+                </LinearLayout>
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/pichincha_subir"
+
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Subir Comprobante"/>
+                <Button
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/pichincha_cancelarr"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Cancelar"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

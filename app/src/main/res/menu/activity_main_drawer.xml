@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/noticias"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/turismo"
+            android:icon="@drawable/ic_airport_shuttle_black_24dp"
+            android:title="Turismo" />
+        <item
+            android:id="@+id/mascotas"
+            android:icon="@drawable/baseline_pets_24"
+            android:title="Mascotas" />
+        <item
+            android:id="@+id/campeonato"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="Campeonato de Futbol" />
+        <item
+            android:id="@+id/agua"
+            android:icon="@drawable/baseline_water_damage_24"
+            android:title="Pago de Agua" />
+        <item
+            android:id="@+id/turno"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Atención Ciudadana" />
+        <item
+            android:id="@+id/sugerencia"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:title="Denuncia Ciudadana" />
+
+
+    </group>
+
+    <item android:title="Paginas de Interes">
+        <menu>
+            <!--<ite-->
+            <!--android:id="@+id/nav_share"-->
+            <!--android:icon="@drawable/ic_web_asset_black_24dp"-->
+            <!--android:title="Donde Votar" />-->
+
+            <item
+                android:id="@+id/planilla_luz"
+                android:icon="@drawable/ic_wb_incandescent_black_24dp"
+                android:title="Planilla de Luz" />
+            <item
+                android:id="@+id/planilla_telefono"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                android:title="Planilla de Telefono" />
+            <item
+                android:id="@+id/multa_transito"
+                android:icon="@drawable/ic_local_car_wash_black_24dp"
+                android:title="Multas de transito" />
+            <item
+                android:id="@+id/licencia"
+                android:icon="@drawable/ic_directions_car_black_24dp"
+                android:title="Licencias" />
+            <item
+                android:id="@+id/ser_bachiller"
+                android:icon="@drawable/ic_local_library_black_48dp"
+                android:title="Ser Bachiller" />
+            <item
+                android:id="@+id/conversor"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="Viajas a Perú" />
+
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toolbarf1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/toolbar"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/anohistoria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:paddingLeft="70dp"
+            android:text="@string/_2018"
+            android:textSize="40sp"
+            android:paddingStart="70dp" />
+
+        <TextView
+            android:id="@+id/equipohistoria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:gravity="right|fill_vertical"
+            android:paddingRight="30dp"
+            android:text="@string/wolf_s"
+            android:textColor="@color/cielo"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:paddingEnd="30dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

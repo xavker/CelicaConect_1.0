@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoConexion.Tramites.MenuTramites">
+<!--    android:background="@drawable/fondo"-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/big_view"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:scrollIndicators="bottom"
+        android:layout_height="match_parent">
+        <TextView
+            android:paddingTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reporta tu denuncia ciudadana."
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:elevation="3dp"
+
+            android:paddingTop="140dp"
+            android:src="@drawable/ic_escudo_web" />
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/idGrid"
+            android:paddingTop="300dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:columnWidth="90dp"
+            android:numColumns="3"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="spacingWidth"
+            android:gravity="center"
+            >
+
+        </GridView>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

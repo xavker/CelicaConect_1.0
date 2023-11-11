@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:text="@string/ingrese_un_nuevo_equipo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="3dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/design_default_color_primary"
+        app:srcCompat="@drawable/football" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/nombre1"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/nombre1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/nombre"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/partidos_jugados" />
+        <Button
+            android:id="@+id/buttonmminpj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/pj1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="number"
+            android:text="@string/_0" />
+        <Button
+            android:id="@+id/buttonmaxpj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/partidos_ganados" />
+        <Button
+            android:id="@+id/buttonmminpg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/pg1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="number"
+            android:text="@string/_0" />
+        <Button
+            android:id="@+id/buttonmaxpg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/partidos_empatados" />
+        <Button
+            android:id="@+id/buttonmminpe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/pe1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:text="@string/_0"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/buttonmaxpe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/partidos_perdidos" />
+        <Button
+            android:id="@+id/buttonmminpp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/pp1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:ems="10"
+            android:hint="@string/_0"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/buttonmaxpp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/goles_a_favor" />
+        <Button
+            android:id="@+id/buttonmmingf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/gf1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:text="@string/_0"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/buttonmaxgf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/goles_en_contra" />
+        <Button
+            android:id="@+id/buttonmminge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/ge1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:text="@string/_0"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/buttonmaxge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/puntos1" />
+        <Button
+            android:id="@+id/buttonmminp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/ge"
+            android:gravity="center"
+            android:text="@string/menos" />
+
+        <EditText
+            android:id="@+id/puntos1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:text="@string/_0"
+            android:gravity="center"
+            android:hint="@string/_0"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/buttonmaxp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gf"
+            android:gravity="center"
+            android:text="@string/mas" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar_datos" />
+</LinearLayout>

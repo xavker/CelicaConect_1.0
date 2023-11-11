@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#00a2ff</color>
+    <color name="purple_700">#FFEB3B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FFEB3B</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorceleste">#00a2ff</color>
+    <color name="colorazul">#0183ce</color>
+    <color name="coloramarillo">#ffcc00</color>
+    <color name="cielo">#19A1E0</color>
+    <color name="textocarview">#FFFFFF</color>
+    <color name="grey_dialog_box">#A29898</color>grey_dialog_box
+    <color name="gf">#4CAF50</color>
+    <color name="ge">#D33348</color>
+
+    <color name="colorSplash">#000000</color>
+    <color name="colorFondo">#333333</color>
+    <color name="colorIntroduccion">#871616</color>
+    <color name="colorJugar">#FFCC00</color>
+    <color name="colorAjustes">#26CA69</color>
+    <color name="colorRanking">#03A9F5</color>
+    <color name="colorInstrucciones">#FF9700</color>
+    <color name="colorNikName">#CC33CC</color>
+    <color name="colorInformacion">#F44236</color>
+    <color name="colorFinal">#adba49</color>
+
+    <color name="disponible">#4CAF50</color>
+    <color name="nodisponible">#F64437</color>
+
+    <color name="colorPrimary1">#3B5998</color>
+    <color name="colorPrimaryDark1">#324d87</color>
+    <color name="colorAccent1">#FF4081</color>
+
+    <color name="light_grey">#e4e4e4</color>
+    <color name="grey">#8b8b8b</color>
+    <color name="dark_grey">#696969</color>
+
+</resources>

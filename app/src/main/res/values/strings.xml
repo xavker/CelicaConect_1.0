@@ -1,0 +1,130 @@
+<resources>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="especifico">Especifico</string>
+    <string name="atopico">Atopico</string>
+
+
+    <string name="numero_de_telefono">Numero de telefono</string>
+    <string name="obtener_codigo">Obtener Codigo</string>
+    <string name="firebase_login">Ingresar con GOOGLE</string>
+    <string name="ingresar_con_google">Ingresar con GOOGLE</string>
+    <string name="salir_con_google">Salir de tu cuenta.</string>
+    <string name="facebook_application_id" translatable="false">794797977679186</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb794797977679186</string>
+
+
+    <string name="app_name">Celica Conected</string>
+    <string name="facebook_login_protocol_schema" translatable="false">fb166878704207647</string>
+    <string name="title_activity_navegador">Celica Conected</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Sin conexion -->
+    <string name="reload_message_1"><b>¡Ups!</b></string>
+    <string name="reload_message_2">Se a perdido la conexión</string>
+    <string name="frag_web_root">mipaginaweb.com</string>
+    <string name="web_root">https://www.mipaginaweb.com/</string>
+    <string name="time_wait_check">10</string>
+    <string name="time_check">10</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tipo_c">Tipo C</string>
+    <string name="tipo_b">Tipo B</string>
+    <string name="tipo_a">Tipo A</string>
+    <string name="detalles">Detalles</string>
+    <string name="todo1">TODO</string>
+
+    <string name="el_distrito_militar_del_sur_de_rusia_realiza_ejercicios_al_tiempo_que_la_otan_realiza_maniobras_en_el_mar_negro">el_distrito_militar_del_sur_de_rusia_realiza_ejercicios_al_tiempo_que_la_otan_realiza_maniobras_en_el_mar_negro</string>
+    <string name="_25_de_abril_de_2019">25 de abril de 2019</string>
+    <string name="no_tienes_internet_toca_para_volver_a_intentar">No tienes internet toca para volver a intentar</string>
+    <string name="todo3">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="respuesta">respuesta</string>
+    <string name="_1_dolara_2800_pesos">1 dolara = 2800 pesos</string>
+    <string name="name">Name</string>
+    <string name="ingrese_un_valor">Ingrese un valor</string>
+    <string name="_0_00">0.00</string>
+    <string name="enviar">Enviar</string>
+    <string name="sugerencias">Sugerencias</string>
+    <string name="ingresa_tus_sugerencias">Ingresa tus sugerencias</string>
+    <string name="ingresa_tu_correo">Ingresa tu correo</string>
+    <string name="realiza_tus_sugerencias_sera_ungusto_atenderte">Realiza tus sugerencias, sera un gusto atenderte.</string>
+    <string name="siguenos">Siguenos</string>
+    <string name="salir">Salir</string>
+    <string name="gad_celica_com">gad.celica.com</string>
+    <string name="gadcelica">\@gadcelica</string>
+    <string name="celicaconected">\@celicaconected</string>
+
+    <string name="nombre">nombre</string>
+    <string name="pj">PJ</string>
+    <string name="pg">PG</string>
+    <string name="pe">PE</string>
+    <string name="gf">GF</string>
+    <string name="ge">GE</string>
+    <string name="puntos">PUNTOS</string>
+    <string name="nombre1">Nombre:</string>
+    <string name="ingrese_un_nombre">Ingrese un nombre.</string>
+    <string name="partidos_jugados">Partidos Jugados:</string>
+    <string name="partidos_empatados">Partidos Empatados</string>
+    <string name="partidos_perdidos">Partidos Perdidos</string>
+    <string name="goles_a_favor">Goles a Favor</string>
+    <string name="puntos1">Puntos:</string>
+    <string name="goles_en_contra">Goles en Contra</string>
+    <string name="partidos_ganados">Partidos Ganados:</string>
+    <string name="actualizar_datos">Actualizar Datos</string>
+    <string name="ingrese_un_nuevo_equipo">Actualice un Equipo</string>
+    <string name="pp">PP</string>
+    <string name="equipo">Equipo</string>
+    <string name="_0">0</string>
+    <string name="ingrese_un_valor1">0</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="fecha_1">Fecha 1</string>
+    <string name="equipo1">Equipo 1</string>
+    <string name="estadio_ciudad_de_celica">Estadio Ciudad de Celica</string>
+    <string name="_11_de_junio">11 de junio</string>
+    <string name="vs">vs</string>
+    <string name="equipo22">Equipo 2</string>
+    <string name="proximos_encuentros">Proximos Encuentros</string>
+    <string name="fecha_del_encuentros">Fecha de encuentro</string>
+    <string name="fecha_numero">Fecha numero</string>
+    <string name="historia_del_campeonato">Historia del Campeonato</string>
+    <string name="_2018">2018</string>
+    <string name="wolf_s">Wolf\'s</string>
+    <string name="quillusara">Quillusara</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="title_activity_tipos_licencia">TiposLicencia</string>
+
+    <string-array name="oficinas">
+        <item>Oficina de Alcaldia</item>
+        <item>Consejal Cristina Dominguez</item>
+        <item>Consejal Deisy Granda</item>
+        <item>Consejal Tabarita</item>
+    </string-array>
+</resources>
